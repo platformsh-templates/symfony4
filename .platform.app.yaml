@@ -21,10 +21,10 @@ hooks:
         set -e
         bin/console assets:install --no-debug
         bin/console cache:clear
+        bin/console cache:warmup
     deploy: |
         set -e
         bin/console assets:install --symlink --relative public
-        bin/console cache:clear
 
 # The relationships of the application with services or other applications.
 # The left-hand side is the name of the relationship as it will be exposed
@@ -38,9 +38,6 @@ disk: 2048
 
 # The mounts that will be performed when the package is deployed.
 mounts:
-    "/var/cache":
-        source: local
-        source_path: "cache"
     "/var/log":
         source: local
         source_path: "log"
