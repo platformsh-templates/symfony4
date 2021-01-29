@@ -14,8 +14,6 @@
         "symfony/framework-bundle": "*",
         "symfony/yaml": "*"
     },
-    "require-dev": {
-    },
     "config": {
         "preferred-install": {
             "*": "dist"
