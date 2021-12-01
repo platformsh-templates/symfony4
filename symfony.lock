@@ -45,6 +45,9 @@
     "symfony/dependency-injection": {
         "version": "v4.4.3"
     },
+    "symfony/deprecation-contracts": {
+        "version": "v2.5.0"
+    },
     "symfony/dotenv": {
         "version": "v4.4.3"
     },
@@ -124,6 +127,9 @@
     },
     "symfony/polyfill-php80": {
         "version": "v1.17.0"
+    },
+    "symfony/polyfill-php81": {
+        "version": "v1.23.0"
     },
     "symfony/routing": {
         "version": "4.2",
