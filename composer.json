@@ -15,6 +15,9 @@
         "symfony/yaml": "4.4.*"
     },
     "config": {
+        "allow-plugins": {
+            "symfony/flex": true
+        },
         "preferred-install": {
             "*": "dist"
         },
